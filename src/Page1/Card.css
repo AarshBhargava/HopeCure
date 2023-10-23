@@ -1,0 +1,54 @@
+.card {
+    color: white;
+    display: flex;
+    width: 95%;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #0d0d0d;
+    align-content: center;
+    gap: 2vw;
+    padding: 1vw;
+    padding-right: 3vw;
+    border-radius: 2vw;
+  }
+
+  .card-image{
+    width: 9vw;
+  }
+
+  .card-icon{
+    display: flex;
+    justify-self: flex-end;
+  }
+
+ .cardtext {
+    flex: 1 0 0px;
+    width: auto;
+    justify-content: left;
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .card-text-heading{
+    overflow: visible;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Manrope", "Manrope Placeholder", sans-serif;
+    color: #edf2f4;
+    font-size: 2vw;
+    letter-spacing: -0.025em;
+    line-height: 1.5;
+    text-align: left;
+  }
+  .card-text-content {
+    overflow: visible;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Manrope", sans-serif;
+    color: #edf2f4;
+    font-size: 1.3vw;
+    letter-spacing: 0em;
+    line-height: 1.5;
+    text-align: left;
+  }

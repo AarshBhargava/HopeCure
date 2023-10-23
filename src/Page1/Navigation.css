@@ -1,0 +1,25 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0vw 2.5vw 0vw 2.5vw;
+}
+
+.list-navbar{
+    display: flex;
+    align-self: center;
+    gap: 3.5vw;
+    list-style-type: none;
+}
+
+.list-navbar *{
+    text-decoration: none;
+    overflow: visible;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Manrope", sans-serif;
+    color: #232222;
+    font-size: 1vw;
+    letter-spacing: 0em;
+    line-height: 2;
+    text-align: left;
+}

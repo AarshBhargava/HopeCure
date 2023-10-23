@@ -1,0 +1,13 @@
+.testimonials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vw;
+    background-color: #000000;
+    gap: 5%;
+    align-content: center;
+}
+
+.t1{
+    width: 45%;
+}

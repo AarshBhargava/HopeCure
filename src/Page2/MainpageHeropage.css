@@ -1,0 +1,94 @@
+.mainpageheropage{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 35vw;
+    background-color: #d80032;
+}
+
+.input-value{
+    height: 80%;
+    width: 70%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color:  rgb(255, 254, 248);
+    border-radius: 1vw;
+}
+
+.headline{
+    display: flex;
+    font-style: normal;
+    padding: 2vw;
+    font-family: "Manrope", sans-serif;
+    color: black;
+    font-size: 1.6vw;
+    letter-spacing: 0em;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.border-box{
+    display: flex;
+    width: 80%;
+    height: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3vw;
+    border: 2px dashed rgb(162, 157, 157);
+    border-radius: 1vw;
+}
+
+.input-text{
+    display: flex;
+    font-style: normal;
+    font-family: "Manrope", sans-serif;
+    color: black;
+    font-size: 1vw;
+    padding: 1vw;
+    letter-spacing: 0em;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.termsandcondition{
+    padding: 1vw;
+}
+
+.upload{
+    display: relative;
+}
+
+.input{
+    position: relative;
+    height: 50%;
+    top: 60%;
+    left: 2%;
+    width: min-content;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.mainpage-bttn{
+    font-family: "Manrope", sans-serif;
+    font-size: 1vw;
+    letter-spacing: 0em;
+    width: 18vw;
+    line-height: 1.2;
+    text-align: left;
+    color: rgb(255, 254, 239);
+    display: flex;
+    justify-content: center;
+    padding: 1vw;
+    background-color: rgb(83, 83, 210);
+    overflow: visible;
+    align-content: center;
+    gap: 1vw;
+    border: none;
+    border-radius: 8vw;
+}
+
+

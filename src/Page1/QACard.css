@@ -1,0 +1,58 @@
+.qa{
+    flex-shrink: 0;
+  flex: 1 0 0px;
+  width: auto;
+  height: min-content; /* 112px */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 100%;
+  overflow: visible;
+  position: relative;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+  gap: 1vw;
+}
+
+.qa-question{
+    flex-shrink: 0;
+    width: auto;
+    height: auto; /* 30px */
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow: visible;
+    flex: 1 0 0px;
+    position: relative;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Manrope", "Manrope Placeholder", sans-serif;
+    color: #ffffff;
+    font-size: 1.3vw;
+    letter-spacing: -0.025em;
+    line-height: 1.5;
+    text-align: left;
+  }
+
+.qa-answer
+    {
+        flex-shrink: 0;
+        width: auto;
+        height: auto; /* 72px */
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        word-break: break-word;
+        max-width: 400px;
+        overflow: visible;
+        flex: 1 0 0px;
+        position: relative;
+        font-weight: 500;
+        font-style: normal;
+        font-family: "Manrope", sans-serif;
+        color: #8d99ae;
+        font-size: 1.2vw;
+        letter-spacing: 0em;
+        line-height: 1.5;
+        text-align: left;
+      }

@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import MainPage from "./Page2/MainPage";
+import { Route, Routes } from "react-router";
+import Text from "./Page1/Textarea";
+import Projects from "./Page1/projects";
+import Gallery from "./Page1/Gallery";
+import Test from "./Page1/Test";
+import Faq from "./Page1/Faq";
+import Join from "./Page1/Join";
+import Lastpanel from "./Page1/Lastpanel";
+import "./Page1/Heropage.css";
+import FirstPage from "./Page1/FirstPage";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="page">
+      <Routes>
+        <Route path="/" />
+        <Route path="/Mainpage" Component={MainPage} />
+      </Routes>
+      <FirstPage />
+      <Text />
+      <Projects />
+      <Gallery />
+      <Test />
+      <Faq />
+      <Join />
+      <Lastpanel />
     </div>
   );
 }

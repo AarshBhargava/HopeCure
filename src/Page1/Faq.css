@@ -1,0 +1,37 @@
+.Faq{
+    display: flex;
+    flex-direction: column;
+    padding: 5vw;
+    background-color: #000000;
+    align-content: center;
+    gap: 7vw;
+  }
+
+.faq-main-header{
+    align-self: flex-start;
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow: visible;
+    flex: 1 0 0px;
+    font-weight: 400;
+    align-items: center;
+    font-style: normal;
+    font-family: "Unica One", sans-serif;
+    color: #ffffff;
+    font-size: 3vw;
+    letter-spacing: 0em;
+    line-height: 1.2;
+  }
+
+.qa-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: auto;
+    gap: 7vw;
+}
+
+.qa-text{
+  display: flex;
+  gap: 7.4vw;
+}

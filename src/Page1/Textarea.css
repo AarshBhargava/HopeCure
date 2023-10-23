@@ -1,0 +1,36 @@
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d80032;
+    padding: 5vw;
+    gap: 10vw;
+  }
+
+  .ai-driven-ct-scan-analysis {
+    display: flex;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Unica One", sans-serif;
+    color: #edf2f4;
+    font-size: 4vw;
+    letter-spacing: 0em;
+    line-height: 1.2;
+    text-align: left;
+    width: 35%;
+  }
+
+
+  .main-text-area{
+    flex-shrink: 0;
+    width: 40%;
+    overflow: visible;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Manrope", sans-serif;
+    color: #ffffff;
+    font-size: 1.3vw;
+    letter-spacing: 0em;
+    line-height: 1.5;
+    text-align: left;
+  }

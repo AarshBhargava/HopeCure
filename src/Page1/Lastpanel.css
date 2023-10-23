@@ -1,0 +1,59 @@
+.Lastpanel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10vw;
+    padding: 5vw;
+    background-color: #000000;
+}
+
+.Functionalities{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;;
+    color: white;
+}
+
+.first-panel, .second-panel, .third-panel{
+        overflow: visible;
+        font-weight: 500;
+        font-style: normal;
+        font-family: "Manrope", sans-serif;
+        width: 40%;
+        color: #edf2f4;
+        font-size: 1vw;
+        letter-spacing: 0em;
+        line-height: 2;
+        text-align: left;
+}
+
+.first-child{
+    font-weight: bolder;
+}
+
+
+.Socials{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-self: center;
+    gap: 3vw;
+}
+
+.icons{
+    color: white;
+    display: flex;
+    gap: 3vw;
+    align-self: center;
+    justify-content: center;
+}
+
+.icons>*{
+    font-size: 2vw;
+}
+
+.rights{
+    font-size: 1vw;
+}
