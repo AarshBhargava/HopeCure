@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/HopeCure/static/css/main.568891e0.css",
+    "main.js": "/HopeCure/static/js/main.cbad5706.js",
+    "static/js/787.caf28f83.chunk.js": "/HopeCure/static/js/787.caf28f83.chunk.js",
+    "static/media/brain-tumor-1.png": "/HopeCure/static/media/brain-tumor-1.4f832bf728106cdebe35.png",
+    "static/media/brain-tumor-4.png": "/HopeCure/static/media/brain-tumor-4.cf718b0c7e8199d7712a.png",
+    "static/media/brain-tumor-2.png": "/HopeCure/static/media/brain-tumor-2.a12136594f2525d1f77d.png",
+    "static/media/brain-tumor-3.png": "/HopeCure/static/media/brain-tumor-3.43629eba8693f4b33fc8.png",
+    "static/media/image-removebg-preview.png": "/HopeCure/static/media/image-removebg-preview.c9636019e206ae2695d4.png",
+    "static/media/image 3.png": "/HopeCure/static/media/image 3.088a3457b2d8d3a8c287.png",
+    "static/media/image 21.png": "/HopeCure/static/media/image 21.2684129cae8ce2421116.png",
+    "static/media/image 4.png": "/HopeCure/static/media/image 4.80a2312c6a0a7fa2de24.png",
+    "index.html": "/HopeCure/index.html",
+    "main.568891e0.css.map": "/HopeCure/static/css/main.568891e0.css.map",
+    "main.cbad5706.js.map": "/HopeCure/static/js/main.cbad5706.js.map",
+    "787.caf28f83.chunk.js.map": "/HopeCure/static/js/787.caf28f83.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.568891e0.css",
+    "static/js/main.cbad5706.js"
+  ]
+}
